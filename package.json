@@ -1,0 +1,32 @@
+{
+  "name": "english-for-kids-server",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "watch": "nodemon",
+    "lint": "eslint src --ext .ts,.js"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2",
+    "multer": "^1.4.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.10"
+  }
+}
